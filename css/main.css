@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost", sans-serif;
+
+}
+
+.container {
+    max-width: 1350px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+    padding-top: 65px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* header poster */
+
+.header-content {
+    padding-top: 40px;
+}
+
+.header-img {
+    
+}
+
+.header-text {
+    max-width: 433px;
+    position: absolute;
+    padding: 85px 40px;
+}
+
+.header-text h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+
+/* services */
+
+.services {
+    padding: 85px 0;
+}
+
+.services h2 {
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.service-row {
+    display: flex;
+    column-gap: 50px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+
+}
+
+.service-card h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/* FBO and FBS */
+
+.fbonfbs {
+
+}
+
+.fbonfbs-block {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.fbonfbs-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.fbonfbs-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.fbonfbs-img {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 150px;
+}
+
+.fbonfbs-text {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fbonfbs-text p {
+    text-align: center;
+    font-size: 21px;
+    padding: 50px 30px;
+}
