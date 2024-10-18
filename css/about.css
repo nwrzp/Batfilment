@@ -1,0 +1,67 @@
+.section-about h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.section-about p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.text-dating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.text-dating h2 {
+    text-align: left;
+}
+
+.text-dating p {
+    text-align: right;
+    max-width: 860px;
+}
+
+.text-trying {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.text-trying-text {
+    max-width: 865px;
+    margin-top: 165px;
+}
+
+.text-trying h2 {
+    text-align: right;
+    margin-bottom: 36px;
+}
+
+.text-trying p {
+    text-align: left;
+    max-width: 860px;
+}
+
+.gratitude {
+    text-align: center;
+}
+
+.gratitude h2 {
+    margin-bottom: 35px;
+}
+
+.gratitude img {
+    display: flex;
+    justify-content: center;
+    max-width: 1345px;
+}
+
+.gratitude p {
+    display: flex;
+    justify-content: center;
+    max-height: 115px;
+    margin: 40px 0 85px;
+    padding: 0 auto;
+}

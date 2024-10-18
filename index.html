@@ -5,84 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batfilment</title>
     <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./path/to/flickity.css" media="screen"> -->
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-nav">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="./pages/about.html" class="nav-link">О нас</a></li>
-                        <li class="nav-item"><a href="./pages/fbo.html" class="nav-link">FBO</a></li>
-                        <li class="nav-item"><a href="./pages/fbs.html" class="nav-link">FBS</a></li>
-                        <li class="nav-item"><a href="./pages/calculation.html" class="nav-link">Рассчитать стоимость</a></li>
-                    </ul>
-                    <a href="./index.html"><img src="./img/logo.svg" class="logo" alt="logo"></a>
-                </nav>
-            </div>
-        </div>
-        <!-- header poster -->
-         <div class="container">
-             <div class="header-content">
-                 <div class="header-text">
-                    <h2>Вы - продаёте, всё остальное делаем мы!</h2>
-                    <p>Работаем по схеме FBO и FBS: заберем, промаркируем, упакуем ваш товар с доставкой на все маркетплейсы быстро и без лишних хлопот.</p>
-                 </div>
-                <img src="./img/header1.png" alt="img" class="header-img">
-             </div>
-         </div>
-    </header>
-    <main>
-        <section class="services">
+    <body>
+        <header class="header">
             <div class="container">
+                <div class="header-nav">
+                    <nav class="nav">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="./pages/about.html" class="nav-link">О нас</a></li>
+                                <li class="nav-item"><a href="./pages/fbo.html" class="nav-link">FBO</a></li>
+                                <li class="nav-item"><a href="./pages/fbs.html" class="nav-link">FBS</a></li>
+                            </ul>
+                        <a href="./index.html"><img src="./img/logo.svg" class="logo" alt="logo"></a>
+                        <button><a href="./pages/calculation.html" class="nav-link">Рассчитать стоимость</a></button>
+                    </nav>
+                </div>
+            </div>
+            <!-- header poster -->
+        </header>
+        <main>
+            <div class="container">
+                <div class="header-content">
+                    <div class="header-text">
+                        <h2>Вы - продаёте, всё остальное делаем мы!</h2>
+                        <p>Работаем по схеме FBO и FBS: заберем, промаркируем, упакуем ваш товар с доставкой на все маркетплейсы быстро и без лишних хлопот.</p>
+                    </div>
+                    <img src="./img/header1.png" alt="img" class="header-img">
+                </div>
+            </div>
+            <!-- <section class="services">
+                <div class="container">
+                    <h2>Услуги</h2>
+                        <div class="service-row">
+                            <div class="service-card">
+                                <img src="./img/service1.svg" alt="img">
+                                <h3>Приём на склад</h3>
+                            </div>
+                            <div class="service-card">
+                                <img src="./img/service2.svg" alt="img">
+                                <h3>Складская обработка</h3>
+                            </div>
+                            <div class="service-card">
+                                <img src="./img/service3.svg" alt="img">
+                                <h3>Хранение</h3>
+                            </div>
+                            <div class="service-card">
+                                <img src="./img/service4.svg" alt="img">
+                                <h3>Доставка</h3>
+                            </div>
+                        </div>
+                </div>
+            </section> -->
+
+
+            <section class="slider">
                 <h2>Услуги</h2>
-                    <div class="service-row">
-                        <div class="service-card">
-                            <img src="./img/service1.svg" alt="img">
-                            <h3>Приём на склад</h3>
-                        </div>
-                        <div class="service-card">
-                            <img src="./img/service2.svg" alt="img">
-                            <h3>Складская обработка</h3>
-                        </div>
-                        <div class="service-card">
-                            <img src="./img/service3.svg" alt="img">
-                            <h3>Хранение</h3>
-                        </div>
-                        <div class="service-card">
-                            <img src="./img/service4.svg" alt="img">
-                            <h3>Доставка</h3>
+            	<input type="radio" name="testimonial" id="t-1">
+            	<input type="radio" name="testimonial" id="t-2">
+            	<input type="radio" name="testimonial" id="t-3" checked>
+            	<input type="radio" name="testimonial" id="t-4">
+            	<input type="radio" name="testimonial" id="t-5">
+            	<div class="testimonials">
+            		<label class="item" for="t-1">
+            			<img src="./img/service1.svg" alt="picture">
+                        <p>Приём на склад</p>
+            		</label>
+            		<label class="item" for="t-2">
+            			<img src="./img/service2.svg" alt="picture">
+                        <p>Складская обработка</p>
+            		</label>
+            		<label class="item" for="t-3">
+            			<img src="./img/service3.svg" alt="picture">
+                        <p>Хранение</p>
+            		</label>
+            		<label class="item" for="t-4">
+            			<img src="./img/service4.svg" alt="picture">
+                        <p>Доставка</p>
+            		</label>
+            		<label class="item" for="t-5">
+            			<img src="./img/service5.svg" alt="picture">
+                        <p>Работа менеджера</p>
+            		</label>
+            	</div>
+            	<div class="dots">
+            		<label for="t-1"></label>
+            		<label for="t-2"></label>
+            		<label for="t-3"></label>
+            		<label for="t-4"></label>
+            		<label for="t-5"></label>
+            	</div>
+            </section>
+
+            <section class="fbonfbs">
+                <div class="container">
+                    <h2><a href="./pages/fbo.html" class="fbonfbs-link">FBO (fulfilment by operator)</a></h2>
+                    <div class="fbonfbs-block">
+                        <div class="fbonfbs-row">
+                            <img src="./img/fbo.svg" alt="img" class="fbonfbs-img">
+                            <div class="fbonfbs-text"><p>Процессы адаптированы под требования каналов продаж и схем FBO. Приемка,переупаковка товара, штрихкодирование. Доставки паллетами до склада маркетплейса</p></div>
                         </div>
                     </div>
-            </div>
-        </section>
-        <section class="fbonfbs">
+                    <h2><a href="./pages/fbs.html" class="fbonfbs-link">FBS (fulfilment by seller)</a></h2>
+                    <div class="fbonfbs-block">
+                        <div class="fbonfbs-row">
+                            <img src="./img/fbs.svg" alt="img" class="fbonfbs-img">
+                            <div class="fbonfbs-text"><p>Процессы адаптированы под требования каналов продаж и схем FBS. Приемка товара, маркировка, хранение в ячейках/мезонин/вешальное, складская обработка, предпродажная подготовка, API-интеграции, доставка до складов маркетплейсов</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
             <div class="container">
-                <h2><a href="./pages/fbo.html" class="fbonfbs-link">FBO</a></h2>
-                <div class="fbonfbs-block">
-                    <div class="fbonfbs-row">
-                        <img src="./img/fbo.svg" alt="img" class="fbonfbs-img">
-                        <div class="fbonfbs-text"><p>Процессы адаптированы под требования каналов продаж и схем FBO. Приемка,переупаковка товара, штрихкодирование. Доставки паллетами до склада маркетплейса</p></div>
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="./index.html"><img src="./img/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="footer-nav-wrapper">
+                        <div class="footer-nav">
+                            <h3 class="footer-nav-title">О нас</h3>
+                            <ul class="footer-nav-list">
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Политика конфиденциальности</a></li>
+                                <li><a href="#">Вакансии</a></li>
+                                <li><a href="#">История Batfilment</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav">
+                            <h3 class="footer-nav-title">Клиентам</h3>
+                            <ul class="footer-nav-list">
+                                <li><a href="#">Заказы и доставка</a></li>
+                                <li><a href="#">Возврат</a></li>
+                                <li><a href="#">Бонусная программа</a></li>
+                                <li><a href="#">Поддержка</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav">
+                            <h3 class="footer-nav-title">Способы оплаты</h3>
+                            <ul class="footer-nav-list">
+                                <li><a href="#"><img src="./img/mir.png" alt="img"></a></li>
+                                <li><a href="#"><img src="./img/visa.png" alt="img"></a></li>
+                                <li><a href="#"><img src="./img/mastercard.png" alt="img"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <h2><a href="./pages/fbs.html" class="fbonfbs-link">FBS</a></h2>
-                <div class="fbonfbs-block">
-                    <div class="fbonfbs-row">
-                        <img src="./img/fbs.svg" alt="img" class="fbonfbs-img">
-                        <div class="fbonfbs-text"><p>Процессы адаптированы под требования каналов продаж и схем FBS. Приемка товара, маркировка, хранение в ячейках/мезонин/вешальное, складская обработка, предпродажная подготовка, API-интеграции, доставка до складов маркетплейсов</p></div>
-                    </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-text">Copyright Batfilment</p>
+                    <ul class="footer-copyright-list">
+                        <li><a href="#">Условия пользования</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-    
-
-
-
-
-    <script src="./js/script.js"></script>
-</body>
+        </footer>
+        <script src="./js/script.js"></script>
+        <!-- <script src="/path/to/flickity.pkgd.min.js"></script> -->
+    </body>
 </html>

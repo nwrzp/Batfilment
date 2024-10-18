@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./reset.css";
+@import './footer.css';
+@import './carousel.css';
+/* @import './nav.css'; */
+@import './about.css';
 
 body {
-    font-family: "Jost", sans-serif;
-
+  font-family: "Jost", sans-serif;
 }
+
 
 .container {
     max-width: 1350px;
+    width: 100%;
     padding: 0 30px;
     margin: 0 auto;
 }
@@ -21,11 +27,16 @@ body {
 .header-nav {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .logo {
 
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav-list {
@@ -75,16 +86,18 @@ body {
 }
 
 .services h2 {
+    display: flex;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 32px;
-    display: flex;
     justify-content: center;
     text-transform: uppercase;
+    color: #333;
 }
 
 .service-row {
     display: flex;
-    column-gap: 50px;
+    column-gap: 85px;
     row-gap: 60px;
     flex-wrap: wrap;
 }
@@ -98,6 +111,7 @@ body {
     justify-content: center;
     font-weight: 400;
     font-size: 21px;
+    color: #333;
 }
 
 /* FBO and FBS */
@@ -118,7 +132,7 @@ body {
 }
 
 .fbonfbs-link {
-    color: #000;
+    color: #333;;
     text-decoration: none;
     font-weight: 700;
     font-size: 32px;
