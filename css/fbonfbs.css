@@ -1,0 +1,33 @@
+.table h2 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.table h3 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.postdost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postavka, .dostavka {
+    width: 580px;
+}
+
+.postavka {
+    margin-right: 25px;
+}
+
+.priezd, .postavka, .dostavka, .upakovka, .dopuslugi {
+    padding: 30px;
+    border: 2px solid;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+

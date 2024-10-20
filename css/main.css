@@ -4,6 +4,7 @@
 @import './carousel.css';
 /* @import './nav.css'; */
 @import './about.css';
+@import './fbonfbs.css';
 
 body {
   font-family: "Jost", sans-serif;
@@ -25,22 +26,16 @@ body {
 }
 
 .header-nav {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-
 }
 
 .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav-list {
     display: flex;
+    justify-content: center;
     column-gap: 50px;
     font-weight: 400;
     font-size: 21px;
@@ -48,11 +43,13 @@ body {
 
 .nav-item {
     list-style-type: none;
+    padding-top: 60px;
 }
 
 .nav-link {
-    color: #000;
     text-decoration: none;
+    color: black;
+
 }
 
 
@@ -60,10 +57,6 @@ body {
 
 .header-content {
     padding-top: 40px;
-}
-
-.header-img {
-    
 }
 
 .header-text {
@@ -102,10 +95,6 @@ body {
     flex-wrap: wrap;
 }
 
-.service-card {
-
-}
-
 .service-card h3 {
     display: flex;
     justify-content: center;
@@ -115,10 +104,6 @@ body {
 }
 
 /* FBO and FBS */
-
-.fbonfbs {
-
-}
 
 .fbonfbs-block {
     display: flex;
@@ -152,7 +137,7 @@ body {
     justify-content: space-around;
     max-width: 800px;
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .fbonfbs-text p {
