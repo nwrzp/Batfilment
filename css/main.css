@@ -22,11 +22,12 @@ body {
 /* header */
 
 .header {
-    padding-top: 65px;
+    padding-top: 25px;
 }
 
 .header-nav {
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .nav {
@@ -54,10 +55,6 @@ body {
 
 
 /* header poster */
-
-.header-content {
-    padding-top: 40px;
-}
 
 .header-text {
     max-width: 433px;
